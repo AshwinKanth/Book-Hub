@@ -1,0 +1,54 @@
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .notFound-container {
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .notFound-heading {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .notFound-description {
+    font-size: 14px;
+  }
+}
+.notFound-heading {
+  font-weight: 500;
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #334155;
+}
+.notFound-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: #475569;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.tryAgain-button {
+  width: 164px;
+  height: 48px;
+  background: #0284c7;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  .tryAgain-button {
+    width: 132px;
+    height: 32px;
+    font-size: 12px;
+  }
+}

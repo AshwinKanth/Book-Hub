@@ -1,0 +1,139 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+.image-container {
+  width: 50%;
+  min-height: 100vh;
+  display: flex;
+}
+@media screen and (max-width: 991px) {
+  .image-container {
+    display: none;
+  }
+}
+
+.LoginImageDesktop {
+  height: 100%;
+  width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  .LoginImageDesktop {
+    display: none;
+  }
+  .LoginImageMobile {
+    width: 200px;
+  }
+  .logo-image {
+    margin-top: 20px;
+    height: 20px;
+    width: 70px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .LoginImageMobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-container {
+    width: 250px;
+    min-height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .form-container {
+    max-width: 250px;
+  }
+  .input {
+    max-width: 250px;
+  }
+  .login-button {
+    max-width: 250px;
+  }
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  padding: 30px;
+}
+.logo-image {
+  width: 141px;
+  height: 48px;
+}
+.form-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+.label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 10px;
+  color: #5a7184;
+  padding-bottom: 10px;
+}
+.input {
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  width: 300px;
+  height: 35px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+.checkbox {
+  margin-right: 10px;
+  width: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.checkboxLabel {
+  cursor: pointer;
+}
+.login-button {
+  background: #0284c7;
+  border-radius: 8px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  border-width: 0px;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 300px;
+  height: 35px;
+}
+.err-msg {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ef4444;
+}
